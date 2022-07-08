@@ -22,6 +22,7 @@ body {
 	padding-bottom:100px;
 }
 .left {
+	border-top-left-radius: 50px;
 	position: initial;
 	background-color: #ABC9FF;
 	padding: 20px;
@@ -31,6 +32,7 @@ body {
 	position: initial;
 	background-color: #FF8B8B;
 	padding: 20px;
+	border-bottom-right-radius: 50px;
 
 }
 .image, .Contact, .Skills, .Language, .Hobbies, .title,
@@ -41,6 +43,11 @@ body {
 	background-color: rgb(4, 96, 150);
 }
 
+.image img{
+	width: 144px;
+    height: 155px;
+    border-radius: 50%;
+}
 
 
 
